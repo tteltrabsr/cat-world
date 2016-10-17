@@ -56,8 +56,7 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #159957;}
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -243,3 +242,34 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.page-header {
+  background-color: rgba(50, 0, 81, .6);
+  z-index: 5;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-image {
+  background-image: url("http://www.critterbabies.com/wp-content/gallery/kittens/cats-animals-kittens-background-us.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.banner, .page-header, .banner-image {
+  width: 100%;
+  height: 400px;
+}
+
+.page-header, .banner-image {
+  position: absolute;
+}
+
