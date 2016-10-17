@@ -5,3 +5,4 @@ position: 0
 ---
 
 This is my gallery of cats!
+http://stuffpoint.com/cats/image/305333-cats-cute-kitty.jpg
